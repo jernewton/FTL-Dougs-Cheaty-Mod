@@ -1,0 +1,4 @@
+<text name="event_DOUG_START_BEACON_text">Welcome to a new sector. You can choose one of these options every time you enter a new sector.</text>
+<text name="event_DOUG_SET_RESOURCES_text">We've given you all of our available resources.</text>
+<text name="event_DOUG_DELAY_FLEET_text">Our spies have sabotaged the rebels to slow them down!</text>
+<text name="event_DOUG_SCAN_SECTOR_text">Our scouts have scanned every beacon in the sector for you.</text>

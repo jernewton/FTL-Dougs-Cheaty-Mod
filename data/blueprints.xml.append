@@ -1,0 +1,2076 @@
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD"> <!-- Kestrel Type A -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_2"> <!-- Kestrel Type B -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_3"> <!-- Kestrel Type C -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED"> <!-- Federation Cruiser Type A -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_2"> <!-- Federation Cruiser Type B -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_3"> <!-- Federation Cruiser Type C -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE"> <!-- Engi Type A -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="8" class="engi"/> <!-- Start with 8 Engi crew -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_2"> <!-- Engi Type B -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="8" class="engi"/> <!-- Start with 8 Engi crew -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_3"> <!-- Engi Type C -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="8" class="engi"/> <!-- Start with 8 Engi crew -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ENERGY"> <!-- Zoltan Type A -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ENERGY_2"> <!-- Zoltan Type B -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ENERGY_3"> <!-- Zoltan Type C -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ANAEROBIC"> <!-- Lanius Cruiser Type A -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ANAEROBIC_2"> <!-- Lanius Cruiser Type B -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="8" class="anaerobic"/> <!-- Start with 8 Lanius crew -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH"> <!-- Stealth Cruiser Type A -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH_2"> <!-- Stealth Cruiser Type B -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH_3"> <!-- Stealth Cruiser Type C -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK"> <!-- Rock Cruiser Type A -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK_2"> <!-- Rock Cruiser Type B -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK_3"> <!-- Rock Cruiser Type C -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY"> <!-- Slug Cruiser Type A -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY_2"> <!-- Slug Cruiser Type B -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY_3"> <!-- Slug Cruiser Type C -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS"> <!-- Mantis Cruiser Type A -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS_2"> <!-- Mantis Cruiser Type B -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="crewCount">
+        <mod:setAttributes amount="8"/>
+    </mod:findLike> <!-- Start with 8 Mantis crew -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike>
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS_3"> <!-- Mantis Cruiser Type C -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL"> <!-- Crystal Cruiser Type A -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL_2"> <!-- Crystal Cruiser Type B -->
+    <mod:findLike type="weaponSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponSlots>4</mod-append:weaponSlots> <!-- Give 4 weapon slots -->
+    <mod:findLike type="droneSlots">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod:findLike type="weaponList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="25"/>
+    </mod:findLike> <!-- Set reactor to level 25 -->
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set shields to level 8 -->
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set engines to level 8 -->
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set medbay to level 3 -->
+        <mod:findLike type="clonebay">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set clonebay to level 3 -->
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set oxygen to level 3 -->
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set teleporter to level 3 -->
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set cloaking to level 3 -->
+        <mod:findLike type="artillery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set artillery to level 3 -->
+        <mod:findLike type="mind">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set mind control to level 3 -->
+        <mod:findLike type="hacking">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set hacking control to level 3 -->
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set weapons to level 8 -->
+        <mod:findLike type="drones">
+            <mod:setAttributes power="8"/>
+        </mod:findLike> <!-- Set drones to level 8 -->
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set pilot subsystem to level 3 -->
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="3" start="true"/>
+        </mod:findLike> <!-- Set sensors to level 3 -->
+        <mod:findLike type="doors">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set doors to level 3 -->
+        <mod:findLike type="battery">
+            <mod:setAttributes power="3"/>
+        </mod:findLike> <!-- Set battery to level 3 -->
+    </mod:findLike>
+</mod:findName>
+
+
+<mod:findName type="weaponBlueprint" name="LASER_BURST_5">
+    <!-- Change burst laser 5 cooldown to 1 second -->
+    <mod:findLike type="cooldown">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:cooldown>1</mod-append:cooldown>
+    <!-- Change burst laser 5 power requirements to just 1 -->
+    <mod:findLike type="power">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:power>1</mod-append:power>
+</mod:findName>
