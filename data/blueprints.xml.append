@@ -235,6 +235,19 @@
         <weapon name="LASER_BURST_5"/>
         <weapon name="LASER_BURST_5"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <!-- Start with a full, diverse crew -->
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="1" class="anaerobic"/>
+    <mod-append:crewCount amount="1" class="crystal"/>
+    <mod-append:crewCount amount="1" class="engi"/>
+    <mod-append:crewCount amount="1" class="energy"/>
+    <mod-append:crewCount amount="1" class="human"/>
+    <mod-append:crewCount amount="1" class="mantis"/>
+    <mod-append:crewCount amount="1" class="rock"/>
+    <mod-append:crewCount amount="1" class="slug"/>
+
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
     </mod:findLike> <!-- Set reactor to level 25 -->
@@ -308,6 +321,18 @@
         <weapon name="LASER_BURST_5"/>
         <weapon name="LASER_BURST_5"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <!-- Start with a full, diverse crew -->
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="1" class="anaerobic"/>
+    <mod-append:crewCount amount="1" class="crystal"/>
+    <mod-append:crewCount amount="1" class="engi"/>
+    <mod-append:crewCount amount="1" class="energy"/>
+    <mod-append:crewCount amount="1" class="human"/>
+    <mod-append:crewCount amount="1" class="mantis"/>
+    <mod-append:crewCount amount="1" class="rock"/>
+    <mod-append:crewCount amount="1" class="slug"/>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
     </mod:findLike> <!-- Set reactor to level 25 -->
@@ -381,6 +406,18 @@
         <weapon name="LASER_BURST_5"/>
         <weapon name="LASER_BURST_5"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <!-- Start with a full, diverse crew -->
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="1" class="anaerobic"/>
+    <mod-append:crewCount amount="1" class="crystal"/>
+    <mod-append:crewCount amount="1" class="engi"/>
+    <mod-append:crewCount amount="1" class="energy"/>
+    <mod-append:crewCount amount="1" class="human"/>
+    <mod-append:crewCount amount="1" class="mantis"/>
+    <mod-append:crewCount amount="1" class="rock"/>
+    <mod-append:crewCount amount="1" class="slug"/>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
     </mod:findLike> <!-- Set reactor to level 25 -->
