@@ -1,0 +1,67 @@
+<mod:findName type="event" name="START_BEACON_ZOLTAN">
+    <mod:findLike id="event_START_BEACON_text"><mod:setAttributes id="event_DOUG_START_BEACON_text"/></mod:findLike>
+    <mod-append:choice blue="true">
+        <!-- Append a choice to delay the rebel fleet -->
+        <text>Delay the rebel fleet for me!</text>
+        <event load="DOUG_DELAY_FLEET"/>
+    </mod-append:choice>
+    <mod-append:choice blue="true">
+        <!-- Append a choice to give a lot of resources -->
+        <text>I need resources!</text>
+        <event load="DOUG_SET_RESOURCES"/>
+    </mod-append:choice>
+    <mod-append:choice blue="true">
+        <!-- Append a choice to scan the sector -->
+        <text>Scan this sector for me.</text>
+        <event load="DOUG_SCAN_SECTOR"/>
+    </mod-append:choice>
+    <mod-append:choice blue="true">
+        <!-- Append a choice to do all of the above -->
+        <text>I want all of the above help!</text>
+        
+        <event>
+            <text>We've given you the full spa treatment.</text>
+            <item_modify>
+                <item type="fuel" min="10000" max="10000"/>
+            </item_modify>
+            <item_modify>
+                <item type="scrap" min="10000" max="10000"/>
+            </item_modify>
+            <item_modify>
+                <item type="missiles" min="10000" max="10000"/>
+            </item_modify>
+            <item_modify>
+                <item type="drones" min="10000" max="10000"/>
+            </item_modify>
+            <modifyPursuit amount="-1000"/>
+            <reveal_map/>
+        </event>
+    </mod-append:choice>
+</mod:findName>
+
+<event name="DOUG_SCAN_SECTOR">
+    <text id="event_DOUG_SCAN_SECTOR_text"/>
+    <reveal_map/>
+</event>
+
+<event name="DOUG_DELAY_FLEET">
+    <text id="event_DOUG_DELAY_FLEET_text"/>
+    <modifyPursuit amount="-1000"/>
+</event>
+
+<event name="DOUG_SET_RESOURCES">
+    <text id="event_DOUG_SET_RESOURCES_text"/>
+
+    <item_modify>
+        <item type="fuel" min="10000" max="10000"/>
+    </item_modify>
+    <item_modify>
+        <item type="scrap" min="10000" max="10000"/>
+    </item_modify>
+    <item_modify>
+        <item type="missiles" min="10000" max="10000"/>
+    </item_modify>
+    <item_modify>
+        <item type="drones" min="10000" max="10000"/>
+    </item_modify>
+</event>
