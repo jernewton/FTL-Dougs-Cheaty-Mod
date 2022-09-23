@@ -986,10 +986,10 @@
             <mod:setAttributes power="3"/>
         </mod:findLike> <!-- Set artillery to level 3 -->
         <mod:findLike type="mind">
-            <mod:setAttributes power="3"/>
+            <mod:setAttributes power="3" start="true"/>
         </mod:findLike> <!-- Set mind control to level 3 -->
         <mod:findLike type="hacking">
-            <mod:setAttributes power="3"/>
+            <mod:setAttributes power="3" start="true"/>
         </mod:findLike> <!-- Set hacking control to level 3 -->
         <mod:findLike type="weapons">
             <mod:setAttributes power="8"/>
@@ -1007,7 +1007,7 @@
             <mod:setAttributes power="3"/>
         </mod:findLike> <!-- Set doors to level 3 -->
         <mod:findLike type="battery">
-            <mod:setAttributes power="3"/>
+            <mod:setAttributes power="3" start="true"/>
         </mod:findLike> <!-- Set battery to level 3 -->
     </mod:findLike>
 </mod:findName>
