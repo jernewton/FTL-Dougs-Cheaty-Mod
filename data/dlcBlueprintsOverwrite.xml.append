@@ -526,6 +526,15 @@
         <weapon name="LASER_BURST_5"/>
         <weapon name="LASER_BURST_5"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="droneList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneList count="4">
+        <drone name="COMBAT_2"/>
+        <drone name="COMBAT_2"/>
+        <drone name="COMBAT_2"/>
+        <drone name="COMBAT_2"/>
+    </mod-append:droneList> <!-- Start with 4 combat drone 2 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -603,6 +612,15 @@
         <weapon name="LASER_BURST_5"/>
         <weapon name="LASER_BURST_5"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="droneList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneList count="4">
+        <drone name="COMBAT_2"/>
+        <drone name="COMBAT_2"/>
+        <drone name="COMBAT_2"/>
+        <drone name="COMBAT_2"/>
+    </mod-append:droneList> <!-- Start with 4 combat drone 2 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -680,6 +698,15 @@
         <weapon name="LASER_BURST_5"/>
         <weapon name="LASER_BURST_5"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="droneList">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:droneList count="4">
+        <drone name="COMBAT_2"/>
+        <drone name="COMBAT_2"/>
+        <drone name="COMBAT_2"/>
+        <drone name="COMBAT_2"/>
+    </mod-append:droneList> <!-- Start with 4 combat drone 2 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -2197,4 +2224,11 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:power>1</mod-append:power>
+</mod:findName>
+
+<mod:findName type="droneBlueprint" name="COMBAT_2">
+    <mod:findLike type="power">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:power>1</mod-append:power> <!-- Make combat drone 2 use only 1 power -->
 </mod:findName>
