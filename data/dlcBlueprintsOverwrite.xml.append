@@ -51,7 +51,7 @@
             <mod:setAttributes power="3"/>
         </mod:findLike> <!-- Set teleporter to level 3 -->
         <mod:findLike type="cloaking">
-            <mod:setAttributes power="3"/>
+            <mod:setAttributes power="3" start="true"/>
         </mod:findLike> <!-- Set cloaking to level 3 -->
         <mod:findLike type="artillery">
             <mod:setAttributes power="3"/>
@@ -60,13 +60,13 @@
             <mod:setAttributes power="3"/>
         </mod:findLike> <!-- Set mind control to level 3 -->
         <mod:findLike type="hacking">
-            <mod:setAttributes power="3"/>
+            <mod:setAttributes power="3" start="true"/>
         </mod:findLike> <!-- Set hacking control to level 3 -->
         <mod:findLike type="weapons">
             <mod:setAttributes power="8"/>
         </mod:findLike> <!-- Set weapons to level 8 -->
         <mod:findLike type="drones">
-            <mod:setAttributes power="8"/>
+            <mod:setAttributes power="8" start="true"/>
         </mod:findLike> <!-- Set drones to level 8 -->
         <mod:findLike type="pilot">
             <mod:setAttributes power="3"/>
@@ -136,7 +136,7 @@
             <mod:setAttributes power="3"/>
         </mod:findLike> <!-- Set teleporter to level 3 -->
         <mod:findLike type="cloaking">
-            <mod:setAttributes power="3"/>
+            <mod:setAttributes power="3" start="true"/>
         </mod:findLike> <!-- Set cloaking to level 3 -->
         <mod:findLike type="artillery">
             <mod:setAttributes power="3"/>
@@ -145,13 +145,13 @@
             <mod:setAttributes power="3"/>
         </mod:findLike> <!-- Set mind control to level 3 -->
         <mod:findLike type="hacking">
-            <mod:setAttributes power="3"/>
+            <mod:setAttributes power="3" start="true"/>
         </mod:findLike> <!-- Set hacking control to level 3 -->
         <mod:findLike type="weapons">
             <mod:setAttributes power="8"/>
         </mod:findLike> <!-- Set weapons to level 8 -->
         <mod:findLike type="drones">
-            <mod:setAttributes power="8"/>
+            <mod:setAttributes power="8" start="true"/>
         </mod:findLike> <!-- Set drones to level 8 -->
         <mod:findLike type="pilot">
             <mod:setAttributes power="3"/>
@@ -221,7 +221,7 @@
             <mod:setAttributes power="3"/>
         </mod:findLike> <!-- Set teleporter to level 3 -->
         <mod:findLike type="cloaking">
-            <mod:setAttributes power="3"/>
+            <mod:setAttributes power="3" start="true"/>
         </mod:findLike> <!-- Set cloaking to level 3 -->
         <mod:findLike type="artillery">
             <mod:setAttributes power="3"/>
@@ -230,13 +230,13 @@
             <mod:setAttributes power="3"/>
         </mod:findLike> <!-- Set mind control to level 3 -->
         <mod:findLike type="hacking">
-            <mod:setAttributes power="3"/>
+            <mod:setAttributes power="3" start="true"/>
         </mod:findLike> <!-- Set hacking control to level 3 -->
         <mod:findLike type="weapons">
             <mod:setAttributes power="8"/>
         </mod:findLike> <!-- Set weapons to level 8 -->
         <mod:findLike type="drones">
-            <mod:setAttributes power="8"/>
+            <mod:setAttributes power="8" start="true"/>
         </mod:findLike> <!-- Set drones to level 8 -->
         <mod:findLike type="pilot">
             <mod:setAttributes power="3"/>
