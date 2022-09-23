@@ -1540,6 +1540,10 @@
         <weapon name="LASER_BURST_5"/>
         <weapon name="LASER_BURST_5"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="8" class="slug"/> <!-- Start with 8 Slug crew -->
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
     </mod:findLike> <!-- Set reactor to level 25 -->
@@ -1604,6 +1608,16 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:droneSlots>4</mod-append:droneSlots> <!-- Give 4 drone slots -->
+    <mod-append:weaponList count="4">
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_BURST_5"/>
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="8" class="slug"/> <!-- Start with 8 Slug crew -->
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
     </mod:findLike> <!-- Set reactor to level 25 -->
@@ -1677,6 +1691,10 @@
         <weapon name="LASER_BURST_5"/>
         <weapon name="LASER_BURST_5"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="8" class="slug"/> <!-- Start with 8 Slug crew -->
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
     </mod:findLike> <!-- Set reactor to level 25 -->
