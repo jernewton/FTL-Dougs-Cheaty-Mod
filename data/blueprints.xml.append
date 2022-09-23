@@ -1103,6 +1103,10 @@
         <weapon name="LASER_BURST_5"/>
         <weapon name="LASER_BURST_5"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="8" class="energy"/> <!-- Start with 8 Zoltan crew -->
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
     </mod:findLike> <!-- Set reactor to level 25 -->
@@ -1176,6 +1180,10 @@
         <weapon name="LASER_BURST_5"/>
         <weapon name="LASER_BURST_5"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="8" class="energy"/> <!-- Start with 8 Zoltan crew -->
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
     </mod:findLike> <!-- Set reactor to level 25 -->
@@ -1249,6 +1257,10 @@
         <weapon name="LASER_BURST_5"/>
         <weapon name="LASER_BURST_5"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="8" class="energy"/> <!-- Start with 8 Zoltan crew -->
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
     </mod:findLike> <!-- Set reactor to level 25 -->
