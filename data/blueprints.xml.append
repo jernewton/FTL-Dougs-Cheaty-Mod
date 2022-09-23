@@ -1615,11 +1615,11 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
+        <weapon name="BEAM_BIO"/>
+        <weapon name="BEAM_BIO"/>
+        <weapon name="BEAM_BIO"/>
         <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 3 anti-bio beams and 1 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -1692,11 +1692,11 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
+        <weapon name="BEAM_BIO"/>
+        <weapon name="BEAM_BIO"/>
+        <weapon name="BEAM_BIO"/>
         <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 3 anti-bio beams and 1 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -1769,11 +1769,11 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
+        <weapon name="BEAM_BIO"/>
+        <weapon name="BEAM_BIO"/>
+        <weapon name="BEAM_BIO"/>
         <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 3 anti-bio beams and 1 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -2225,6 +2225,29 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:power>1</mod-append:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BEAM_BIO">
+    <mod:findLike type="power">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:power>1</mod-append:power> <!-- Make anti-bio beam use only 1 power -->
+    <mod:findLike type="cooldown">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:power>1</mod-append:power> <!-- Make anti-bio beam cooldown only 1 second -->
+    <mod:findLike type="sp">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:sp>4</mod-append:sp> <!-- Make anti-bio beam pierce 4 shields -->
+    <mod:findLike type="length">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:length>420</mod-append:length> <!-- Make anti-bio beam 3x as long as default -->
+    <mod:findLike type="persDamage">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:persDamage>10</mod-append:persDamage> <!-- Make anti-bio beam deal 150 damage -->
 </mod:findName>
 
 <mod:findName type="droneBlueprint" name="COMBAT_2">
