@@ -1643,7 +1643,7 @@
             <mod:setAttributes power="3"/>
         </mod:findLike> <!-- Set oxygen to level 3 -->
         <mod:findLike type="teleporter">
-            <mod:setAttributes power="3"/>
+            <mod:setAttributes power="3" start="true"/>
         </mod:findLike> <!-- Set teleporter to level 3 -->
         <mod:findLike type="cloaking">
             <mod:setAttributes power="3"/>
@@ -1720,7 +1720,7 @@
             <mod:setAttributes power="3"/>
         </mod:findLike> <!-- Set oxygen to level 3 -->
         <mod:findLike type="teleporter">
-            <mod:setAttributes power="3"/>
+            <mod:setAttributes power="3" start="true"/>
         </mod:findLike> <!-- Set teleporter to level 3 -->
         <mod:findLike type="cloaking">
             <mod:setAttributes power="3"/>
@@ -1797,7 +1797,7 @@
             <mod:setAttributes power="3"/>
         </mod:findLike> <!-- Set oxygen to level 3 -->
         <mod:findLike type="teleporter">
-            <mod:setAttributes power="3"/>
+            <mod:setAttributes power="3" start="true"/>
         </mod:findLike> <!-- Set teleporter to level 3 -->
         <mod:findLike type="cloaking">
             <mod:setAttributes power="3"/>
