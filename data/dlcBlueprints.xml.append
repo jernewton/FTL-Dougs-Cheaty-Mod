@@ -11,10 +11,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <!-- Start with a full, diverse crew -->
     <mod:findLike type="crewCount">
@@ -96,10 +96,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <!-- Start with a full, diverse crew -->
     <mod:findLike type="crewCount">
@@ -181,10 +181,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <!-- Start with a full, diverse crew -->
     <mod:findLike type="crewCount">
@@ -266,10 +266,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <!-- Start with a full, diverse crew -->
     <mod:findLike type="crewCount">
@@ -351,10 +351,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <!-- Start with a full, diverse crew -->
     <mod:findLike type="crewCount">
@@ -436,10 +436,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <!-- Start with a full, diverse crew -->
     <mod:findLike type="crewCount">
@@ -530,10 +530,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -616,10 +616,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -702,10 +702,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -779,10 +779,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -856,10 +856,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -933,10 +933,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -1010,10 +1010,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -1087,10 +1087,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -1164,10 +1164,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -1241,10 +1241,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -1318,10 +1318,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -1395,10 +1395,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
@@ -1468,10 +1468,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
@@ -1541,10 +1541,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
@@ -1617,7 +1617,7 @@
         <weapon name="BEAM_BIO"/>
         <weapon name="BEAM_BIO"/>
         <weapon name="BEAM_BIO"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 3 anti-bio beams and 1 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -1694,7 +1694,7 @@
         <weapon name="BEAM_BIO"/>
         <weapon name="BEAM_BIO"/>
         <weapon name="BEAM_BIO"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 3 anti-bio beams and 1 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -1771,7 +1771,7 @@
         <weapon name="BEAM_BIO"/>
         <weapon name="BEAM_BIO"/>
         <weapon name="BEAM_BIO"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 3 anti-bio beams and 1 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -1845,10 +1845,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -1922,10 +1922,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -2002,10 +2002,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -2079,10 +2079,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
@@ -2152,10 +2152,10 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
+        <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
@@ -2219,6 +2219,14 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:cooldown>3</mod-append:cooldown>
+    <!-- Change burst laser 5 power requirements to just 1 -->
+    <mod:findLike type="power">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:power>1</mod-append:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="LASER_CHAINGUN_2">
     <!-- Change burst laser 5 power requirements to just 1 -->
     <mod:findLike type="power">
         <mod:removeTag/>
