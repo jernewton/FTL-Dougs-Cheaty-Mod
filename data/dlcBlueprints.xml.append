@@ -2214,11 +2214,11 @@
 
 
 <mod:findName type="weaponBlueprint" name="LASER_BURST_5">
-    <!-- Change burst laser 5 cooldown to 1 second -->
+    <!-- Change burst laser 5 cooldown to 3 second -->
     <mod:findLike type="cooldown">
         <mod:removeTag/>
     </mod:findLike>
-    <mod-append:cooldown>1</mod-append:cooldown>
+    <mod-append:cooldown>3</mod-append:cooldown>
     <!-- Change burst laser 5 power requirements to just 1 -->
     <mod:findLike type="power">
         <mod:removeTag/>
