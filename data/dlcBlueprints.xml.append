@@ -16,11 +16,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
-    <!-- Augments -->
-    <mod:findLike type="aug">
-        <mod:removeTag/>
-    </mod:findLike>
-    <mod-append:aug name="SLUG_GEL"/>
+    <!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <!-- Start with a full, diverse crew -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -105,7 +101,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <!-- Start with a full, diverse crew -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -190,7 +186,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <!-- Start with a full, diverse crew -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -275,7 +271,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <!-- Start with a full, diverse crew -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -360,7 +356,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <!-- Start with a full, diverse crew -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -445,7 +441,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <!-- Start with a full, diverse crew -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
@@ -539,7 +535,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -625,7 +621,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -711,7 +707,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -788,7 +784,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -865,7 +861,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -942,7 +938,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -1019,7 +1015,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -1096,7 +1092,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -1173,7 +1169,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -1250,7 +1246,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -1327,7 +1323,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -1404,7 +1400,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
     </mod:findLike> <!-- Set reactor to level 25 -->
@@ -1477,7 +1473,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
     </mod:findLike> <!-- Set reactor to level 25 -->
@@ -1550,7 +1546,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
     </mod:findLike> <!-- Set reactor to level 25 -->
@@ -1854,7 +1850,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -1931,7 +1927,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -2011,7 +2007,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
@@ -2088,7 +2084,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
     </mod:findLike> <!-- Set reactor to level 25 -->
@@ -2161,7 +2157,7 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
-    </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    </mod-append:weaponList> <!-- Start with 4 burst laser 5 --><!-- Augments -->          <mod-append:aug name="SLUG_GEL"/>          <mod-append:aug name="FIRE_EXTINGUISHERS"/>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="25"/>
     </mod:findLike> <!-- Set reactor to level 25 -->
