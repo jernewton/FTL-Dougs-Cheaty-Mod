@@ -11,7 +11,7 @@
         <mod:removeTag/>
     </mod:findLike>
     <mod-append:weaponList count="4">
-        <weapon name="LASER_BURST_5"/>
+        <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_BURST_5"/>
         <weapon name="LASER_BURST_5"/>
         <weapon name="LASER_BURST_5"/>
