@@ -16,6 +16,11 @@
         <weapon name="LASER_CHAINGUN_2"/>
         <weapon name="LASER_CHAINGUN_2"/>
     </mod-append:weaponList> <!-- Start with 4 burst laser 5 -->
+    <!-- Augments -->
+    <mod:findLike type="aug">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:aug name="SLUG_GEL"/>
     <!-- Start with a full, diverse crew -->
     <mod:findLike type="crewCount">
         <mod:removeTag/>
